@@ -368,10 +368,6 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
         };
         set_keys_color(accent_lyr_rgb, led_min, led_max, arrow_key_indexes, 4 );
 
-        // volume up and down
-        RGB_MATRIX_INDICATOR_SET_COLOR(EQL_KI, 0xFF, 0xFF, 0xFF);  // volume up - +
-        RGB_MATRIX_INDICATOR_SET_COLOR(MINS_KI, 0xFF, 0xFF, 0xFF); // volume down - -
-
         // layer toggle
         RGB_MATRIX_INDICATOR_SET_COLOR(RIGHT_ALT_KI, 0xAA, 0x22, 0x00);
 
