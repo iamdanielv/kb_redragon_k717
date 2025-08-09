@@ -155,17 +155,21 @@ enum layer_names {
 #define UP_RSFT LT(0, KC_RSFT)
 
 #define MO_CAPS   TD(TD_MO_CAPS)
-// Tap: KC_DOWN; Hold: KC_APP
-#define DN_APP LT(0, KC_APP)
 #define MY_GRV TD(TD_GRV)
 
+// MODIFIED ARROWS
 // Tap: RALT; double hold: RALT; Hold: MO(ARROW_LYR); double Tap: ARROW_LYR lock
 #define ARWS_RALT  TD(TD_RALT)
-#define KBCTL_SPC  LT(KBCTL_LYR, KC_SPC)
-#define KBCTL_BSPC LT(KBCTL_LYR, KC_BSPC)
+
 #define KBCTL_LFT  LT(KBCTL_LYR, KC_LEFT)
 #define RCTL_RGT   RCTL_T(KC_RIGHT)
 #define RSFT_UP    RSFT_T(KC_UP)
+#define DN_APP LT(0, KC_APP) // Tap: KC_DOWN; Hold: KC_APP
+
+// KBCTL Modifiers
+#define KBCTL_SPC  LT(KBCTL_LYR, KC_SPC)
+#define KBCTL_BSPC LT(KBCTL_LYR, KC_BSPC)
+
 
 // *************
 // * Shortcuts *
