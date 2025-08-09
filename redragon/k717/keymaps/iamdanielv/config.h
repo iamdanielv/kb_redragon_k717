@@ -1,7 +1,6 @@
 // Copyright 2025 DV (@iamdanielv)
 #define RGB_MATRIX_SLEEP
 
-#define TAPPING_TERM_PER_KEY
 #define TAP_CODE_DELAY 25
 
 #define PALETTEFX_GRADIENT_ENABLE

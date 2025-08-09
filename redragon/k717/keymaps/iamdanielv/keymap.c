@@ -49,14 +49,6 @@ tap_dance_action_t tap_dance_actions[] = {
 };
 // clang-format on
 
-uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-        case DN_APP:
-            return 150;
-        default:
-            return TAPPING_TERM;
-    }
-}
 
 // clang-format off
 /**
