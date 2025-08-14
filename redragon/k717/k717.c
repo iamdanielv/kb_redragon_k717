@@ -61,7 +61,7 @@ const aw20216s_led_t PROGMEM g_aw20216s_leds[AW20216S_LED_COUNT] = {
     {0, SW6_CS4,  SW6_CS5,  SW6_CS6  },  // 47 V
     {0, SW7_CS4,  SW7_CS5,  SW7_CS6  },  // 48 B
     {0, SW8_CS4,  SW8_CS5,  SW8_CS6  },  // 49 N
-    {0, SW9_CS4,  SW9_CS5,  SW9_CS16  },  // 50 M
+    {0, SW9_CS4,  SW9_CS5,  SW9_CS6  },  // 50 M
     {0, SW10_CS4, SW10_CS5, SW10_CS6  },  // 51 ,
     {0, SW11_CS4, SW11_CS5, SW11_CS6  },  // 52 .
     {0, SW12_CS4, SW12_CS5, SW12_CS6  },  // 53 /
