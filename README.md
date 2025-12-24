@@ -17,7 +17,7 @@ Similarly to [my GK61](https://github.com/iamdanielv/kb_gk61), I wanted to progr
 
 ## Custom Keyboard Software
 
-Copy the folder structure from `redrgon\k717\` into the qmk repo `keyboard` directory.
+Copy the folder structure from `redragon\k717\` into the qmk repo `keyboard` directory.
 
 ## Messy code 🤢
 
